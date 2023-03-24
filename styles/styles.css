@@ -1,15 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
     margin: 0;
+    
 }
-
 /* banner designign here  */
 .banner{
     background-image: url("../images/banner.jpg");
-    max-width: 100%;
+    background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
-    text-align: right;
     
 }
-.banner-header{
+.banner-text{
+    margin-right: 100px;
+    margin-bottom: 100px;
 }
+.ct-primary{
+    position: static;
+    font-size: 10vw;
+    color: #838F43;
+    font-family: 'Open Sans', sans-serif;
+}
+.ct-secondary{
+    font-size: 8vw;
+    color: #838F43;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo{
+    width: 10vw;
+    position: static;
+    margin-bottom: -12%;
+    margin-left: -13%;
+}
+.custom-button{
+    background-color: #838F43;
+    color: white;
+    position: static;
+    margin-left: 2%;
+    
+}
+.custom-button:hover{
+    background-color: #90a323;
+    color: white;
+}
+
+
+/* media query  */
+@media only screen and (max-width: 730px) {
+    .banner{
+      
+    }
+    .banner-text{
+        margin-top: 100px;
+        background-color: rgba(256, 256, 256, 0.7);
+        padding: 10%;
+        border-radius: 2%;
+        
+    }
+  }
